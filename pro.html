@@ -1,0 +1,35 @@
+<!-- setInterval(() => {
+    let value = "";
+  for (let i = 0; i < result1; i++) {
+    value += result3; 
+    console.log(value);
+  } -->
+
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>JavaScript async / await</h1>
+    <h2 id="demo"></h2>
+
+    <p></p>
+
+    <script>
+        async function myDisplay() {
+            let myPromise = new Promise(function (resolve) {
+                let value = '';
+                for (i = 0; i < resolve; i++) {
+                    value += resolve;
+                    setTimeout(function () { resolve("I love You !!"); }, 3000);
+                }
+            });
+            console.log(await myPromise);
+        }
+
+        myDisplay();
+    </script>
+
+</body>
+
+</html>
